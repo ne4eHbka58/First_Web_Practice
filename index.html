@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FlightPool</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body id="home">
+    <div class="index">
+      <div class="main-container">
+        <div class="test-0-logo">
+          <img src="img/logo.png" alt="logo" />
+        </div>
+        <div class="slogan">
+          Мы — сближаем города, <br />
+          вы — живёте там, где хотите
+        </div>
+        <div class="navigation">
+          <a href="#promotions"
+            ><div class="test-0-nav-1 nav-container">акции</div></a
+          >
+          <a href="#search"
+            ><div class="test-0-nav-2 nav-container">Поиск</div></a
+          >
+          <a href="personal_account.html"
+            ><div class="test-0-nav-3 nav-container">личный кабинет</div></a
+          >
+        </div>
+        <div class="principlies-label">Мы работаем по трём принципам</div>
+        <div class="principles">
+          <div class="principle-1 principle">
+            1. Выбрать удобную дату перелета.
+          </div>
+          <div class="principle-2 principle">
+            2. Накопить больше 50% бронирований на рейс.
+          </div>
+          <div class="principle-3 principle">
+            3. Получить снижение стоимости.
+          </div>
+        </div>
+        <div class="slider">
+          <div class="slide">
+            <img src="img/slider-1.png" alt="" />
+          </div>
+          <div class="slide">
+            <img src="img/slider-2.png" alt="" />
+          </div>
+          <div class="slide">
+            <img src="img/slider-3.png" alt="" />
+          </div>
+          <div class="slide">
+            <img src="img/slider-4.png" alt="" />
+          </div>
+          <div class="slide">
+            <img src="img/slider-5.png" alt="" />
+          </div>
+          <div class="controls">
+            <button class="prev"><span class="arrow">&#10094;</span></button>
+            <button class="next"><span class="arrow">&#10095;</span></button>
+          </div>
+        </div>
+        <div class="search-label" id="search">Найдите свой билет</div>
+        <div class="search">
+          <div class="test-0-fd search-element">
+            <span>Откуда</span>
+            <input id="test-0-fd" type="text" />
+          </div>
+          <div class="test-0-fa search-element">
+            <span>Куда</span>
+            <input id="test-0-fa" type="text" />
+          </div>
+          <div class="test-0-fdt search-element">
+            <span>Когда</span>
+            <input id="test-0-fdt" type="date" />
+          </div>
+          <div class="test-0-fat search-element">
+            <span>Обратно</span>
+            <input id="test-0-fat" type="date" />
+          </div>
+          <div class="test-0-fnp search-element">
+            <span>Количество пассажиров (до 8)</span>
+            <input id="test-0-fnp" type="number" />
+          </div>
+          <button id="searchButton" class="test-0-fbs">Найти</button>
+        </div>
+        <div id="searchWarn"></div>
+        <div class="promotions" id="promotions">
+          <div class="promotions-label">Акции</div>
+          <div class="cards">
+            <div class="card">
+              <img src="img/promotion-1.png" alt="" class="test-0-ai" />
+              <div class="card-container">
+                <div class="test-0-an">Returning and Changing Your Tickets</div>
+                <span class="test-0-ad">
+                  The pandemic has changed many travelers’ plans, but we know
+                  that it will not last forever. Once all of this is over, we
+                  will continue exploring this world the way we used to. Special
+                  rules that have been developed for this challenging situation
+                  will help you cancel your trip or postpone it until later.
+                </span>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/promotion-2.png" alt="" class="test-0-ai" />
+              <div class="card-container">
+                <div class="test-0-an">Best offers</div>
+                <span class="test-0-ad">
+                  To see again the streets that witnessed so much. To hug your
+                  beloved ones and look back to see what you’ve come through.
+                  And to think of new dreams that will be so special!
+                </span>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/promotion-3.png" alt="" class="test-0-ai" />
+              <div class="card-container">
+                <div class="test-0-an">See you more often</div>
+                <span class="test-0-ad">
+                  Since the beginning of January, we have been expanding the
+                  geography of flights in Russia so that you can see your loved
+                  ones more often. Choose our company to fly to where you are
+                  always expected.
+                </span>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/promotion-4.png" alt="" class="test-0-ai" />
+              <div class="card-container">
+                <div class="test-0-an">Everything is on again</div>
+                <span class="test-0-ad">
+                  From August 10, we will resume flights to Turkey. Flights from
+                  Moscow to Antalya will be operated twice a day daily, and
+                  flights on the Moscow-Dalaman route will be operated three to
+                  seven times a week.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reviews">
+          <div class="reviews-label">Отзывы о нас</div>
+          <div class="review-container">
+            <div class="review review-1">
+              <div class="review-head">
+                <img src="img/user-icon.png" alt="" class="user-icon" />
+                <div class="username">Вася Пупкин</div>
+              </div>
+              <div class="user-review">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Mauris rhoncus aenean vel elit scelerisque mauris pellentesque
+                pulvinar pellentesque. Vitae sapien pellentesque habitant morbi
+                tristique.
+              </div>
+            </div>
+            <div class="review review-2">
+              <div class="review-head">
+                <img src="img/user-icon.png" alt="" class="user-icon" />
+                <div class="username">Вася Пупкин</div>
+              </div>
+              <div class="user-review">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Mauris rhoncus aenean vel elit scelerisque mauris pellentesque
+                pulvinar pellentesque. Vitae sapien pellentesque habitant morbi
+                tristique.
+              </div>
+            </div>
+            <div class="review review-3">
+              <div class="review-head">
+                <img src="img/user-icon.png" alt="" class="user-icon" />
+                <div class="username">Вася Пупкин</div>
+              </div>
+              <div class="user-review">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Mauris rhoncus aenean vel elit scelerisque mauris pellentesque
+                pulvinar pellentesque. Vitae sapien pellentesque habitant morbi
+                tristique.
+              </div>
+            </div>
+            <div class="review review-4">
+              <div class="review-head">
+                <img src="img/user-icon.png" alt="" class="user-icon" />
+                <div class="username">Вася Пупкин</div>
+              </div>
+              <div class="user-review">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Mauris rhoncus aenean vel elit scelerisque mauris pellentesque
+                pulvinar pellentesque. Vitae sapien pellentesque habitant morbi
+                tristique.
+              </div>
+            </div>
+            <div class="review review-5">
+              <div class="review-head">
+                <img src="img/user-icon.png" alt="" class="user-icon" />
+                <div class="username">Вася Пупкин</div>
+              </div>
+              <div class="user-review">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Mauris rhoncus aenean vel elit scelerisque mauris pellentesque
+                pulvinar pellentesque. Vitae sapien pellentesque habitant morbi
+                tristique.
+              </div>
+            </div>
+            <div class="review review-6">
+              <div class="review-head">
+                <img src="img/user-icon.png" alt="" class="user-icon" />
+                <div class="username">Вася Пупкин</div>
+              </div>
+              <div class="user-review">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Mauris rhoncus aenean vel elit scelerisque mauris pellentesque
+                pulvinar pellentesque. Vitae sapien pellentesque habitant morbi
+                tristique.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="newsletter">
+          <div class="newsletter-label">
+            Подпишитесь на рассылку закрытых акций
+          </div>
+          <div class="newsletter-container">
+            <input
+              type="email"
+              class="test-0-sie"
+              placeholder="Введите ваш e-mail"
+            />
+            <button class="test-0-sbs">Подписаться</button>
+          </div>
+        </div>
+      </div>
+    <div class="footer">
+      
+      <div class="feedback" id="feedback">
+        <span class="test-0-phone"> 8(800)100-10-10 </span>
+        <span class="author"> Попов Артём Алексеевич </span>
+      </div>
+      <div class="footer-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="login_register.html">Login</a></li>
+          <li><a href="#feedback">Contact</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Return</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+        </ul>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

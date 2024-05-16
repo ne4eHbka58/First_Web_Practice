@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" class="login-html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="title">FlightPool - Войти в аккаунт</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="frame-2">
+      <div class="container" id="log-container">
+        <div class="form-container registration">
+          <form>
+            <h1>Зарегистрироваться</h1>
+            <input type="text" placeholder="Имя" id="name" />
+            <input type="text" placeholder="Фамилия" id="surname" />
+            <input type="text" placeholder="Номер документа" id="document" />
+            <input type="text" placeholder="Номер телефона" id="phone" />
+            <input type="password" placeholder="Пароль" id="password" />
+            <input
+              type="password"
+              placeholder="Повторите пароль"
+              id="again-password"
+            />
+            <span id="registrWarn" class=""></span>
+            <button id="registerButn" type="button">Зарегистрироваться</button>
+          </form>
+        </div>
+        <div class="form-container login">
+          <form>
+            <h1>Войти</h1>
+            <input type="phone" placeholder="Номер телефона" id="log-phone" />
+            <input type="password" placeholder="Пароль" id="log-pass" />
+            <span id="loginWarn" class=""></span>
+            <button id="loginButn" type="button">Войти</button>
+          </form>
+        </div>
+        <div class="toggle-container">
+          <div class="toggle">
+            <div class="toggle-panel toggle-left">
+              <h1>Приветствуем снова!</h1>
+              <p>
+                Войдите в свой аккаунт, чтобы использовать все возможности сайта
+              </p>
+              <button class="hidden" id="login">Войти</button>
+            </div>
+            <div class="toggle-panel toggle-right">
+              <h1>Здравствуйте!</h1>
+              <p>Зарегистрируйтесь, чтобы использовать все возможности сайта</p>
+              <button class="hidden" id="register">Зарегистрироваться</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/log-script.js"></script>
+  </body>
+</html>
