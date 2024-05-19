@@ -90,13 +90,26 @@ table tr:last-child td {
   opacity: 0.95;
   font-style: italic;
 }
+.cities {
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 10px;
+  color: #303030;
+  position: absolute;
+}
+.cities .transparent {
+  opacity: 0.85;
+  font-style: italic;
+}
 .under {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.under-text {
-  margin-block: 35px 20px;
+.ticket-info {
+  margin-block: 16px 8px;
   display: flex;
   flex-direction: row;
   gap: 20px;
