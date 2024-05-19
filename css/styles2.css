@@ -193,3 +193,15 @@ table tr:last-child td {
 .wrapper h1 {
   color: #3f3f3f;
 }
+
+.account-ticket {
+  padding-block: 0;
+  height: 140px;
+}
+.account-ticket td {
+  margin-top: -20px;
+  padding: 0;
+}
+.account-ticket .under {
+  margin-bottom: 30px;
+}
